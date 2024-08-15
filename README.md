@@ -89,3 +89,7 @@ classify_skin_cancer_images/
 - **`model_densenet.py`**: Contains the function to train a DenseNet model and plots.
 - **`post_processing.py`**: Handles the post-processing steps, such as generating confusion matrices and classification reports and ensembling models 2 at a time and runs throughs all of them at once.
 
+### Link to dataset
+
+https://drive.google.com/file/d/1yc3LSiviVfrnyluHClZfmo4tjFGCxe_E/view?usp=sharing 
+
