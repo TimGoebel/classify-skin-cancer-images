@@ -19,7 +19,7 @@ This repository contains a machine learning pipeline that processes image data, 
     ```bash
     git clone https://github.com/TimGoebel/classify_skin_cancer_images
 .git
-    cd classify-skin-cancer-images
+    cd classify_skin_cancer_images
     ```
 
 2. Install the required Python packages:
@@ -48,9 +48,14 @@ python main.py
 ## Directory Structure
 
 The expected directory structure is as follows:
+create folders:
+data
+models
+plots
+reports
 
 ```
-classify-skin-cancer-images/
+classify_skin_cancer_images/
 │
 ├── data/
 │   ├── class1/
