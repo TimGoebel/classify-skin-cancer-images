@@ -1,6 +1,6 @@
-# classify-skin-cancer-images
+# classify_skin_cancer_images
 
-This repository contains a machine learning pipeline that processes image data, trains multiple models (VGG, ResNet50, InceptionV3, EfficientNetB0, and DenseNet), and performs post-processing to evaluate the results.
+This repository contains a machine learning pipeline that processes image data, trains multiple models (VGG16, ResNet50, InceptionV3, EfficientNetB0, and DenseNet121), and performs post-processing to evaluate the results.
 
 ## Table of Contents
 
@@ -17,7 +17,7 @@ This repository contains a machine learning pipeline that processes image data, 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/TimGoebel/classify-skin-cancer-images
+    git clone https://github.com/TimGoebel/classify_skin_cancer_images
 .git
     cd classify-skin-cancer-images
     ```
@@ -75,12 +75,12 @@ classify-skin-cancer-images/
 
 ## Scripts Overview
 
-- **`main.py`**: The main script that orchestrates the entire pipeline.
+- **`main.py`**: The main script that orchestrates the entire pipeline trains all the models.
 - **`preprocessing.py`**: Handles data preprocessing, including resizing images.
 - **`model_VGG.py`**: Contains the function to train a VGG16 model and plots.
 - **`model_resnet50.py`**: Contains the function to train a ResNet50 model and plots.
 - **`model_inceptionV3.py`**: Contains the function to train an InceptionV3 model and plots.
 - **`model_efficientnet.py`**: Contains the function to train an EfficientNetB0 model and plots.
 - **`model_densenet.py`**: Contains the function to train a DenseNet model and plots.
-- **`post_processing.py`**: Handles the post-processing steps, such as generating confusion matrices and classification reports.
+- **`post_processing.py`**: Handles the post-processing steps, such as generating confusion matrices and classification reports and ensembling models 2 at a time and runs throughs all of them at once.
 
