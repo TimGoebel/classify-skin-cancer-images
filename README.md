@@ -8,7 +8,7 @@ This repository contains a machine learning pipeline that processes image data, 
 - [Usage](#usage)
 - [Directory Structure](#directory-structure)
 - [Scripts Overview](#scripts-overview)
-- [Link to dataset](#link to data set)
+- [Link to dataset](#Link-to-dataset)
 
 
 ## Installation
