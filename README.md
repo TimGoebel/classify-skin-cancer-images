@@ -17,7 +17,7 @@ This repository contains a machine learning pipeline that processes image data, 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your_username/classify-skin-cancer-images
+    git clone https://github.com/TimGoebel/classify-skin-cancer-images
 .git
     cd classify-skin-cancer-images
     ```
