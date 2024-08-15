@@ -50,13 +50,18 @@ python main.py
 The expected directory structure is as follows:
 
 ```
-repo_name/
+classify-skin-cancer-images/
 │
 ├── data/
 │   ├── class1/
 │   ├── class2/
 │   └── ...
-│
+├── models/
+│   └── ...
+├── plots/
+│   └── ...
+├── reports/
+│   └── ...
 ├── main.py
 ├── preprocessing.py
 ├── model_VGG.py
